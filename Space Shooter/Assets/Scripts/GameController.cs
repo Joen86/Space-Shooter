@@ -3,7 +3,6 @@ using System.Collections;
 
 public class GameController : MonoBehaviour 
 {
-	
 	public GameObject hazard;
 	public Vector3 spawnValues;
 	public int hazardCount;
@@ -19,7 +18,7 @@ public class GameController : MonoBehaviour
 	private bool restart;
 	private int score;
 	
-	void Start()
+	void Start ()
 	{
 		gameOver = false;
 		restart = false;
@@ -75,7 +74,7 @@ public class GameController : MonoBehaviour
 		scoreText.text = "Score: " + score;
 	}
 	
-	public void GameOver ();
+	public void GameOver ()
 	{ 
 		gameOverText.text = "Game Over!";
 		gameOver = true;
