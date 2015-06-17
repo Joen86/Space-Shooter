@@ -1,9 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../Boids/Assets/Scripts/Boid.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameController.cs">
     <Files>
-      <File FileName="../../Boids/Assets/Scripts/Boid.cs" Line="170" Column="3" />
-      <File FileName="../../Boids/Assets/Scripts/BoidSpawner.cs" Line="31" Column="16" />
+      <File FileName="Assets/Scripts/Mover.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/RandomRotator.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/DestroyByContact.cs" Line="36" Column="29" />
+      <File FileName="Assets/Scripts/GameController.cs" Line="9" Column="25" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
